@@ -1,10 +1,52 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+
+
 *{
     margin: 0px;
     padding: 0px;
 }
 
+:root{
+    --cor1:#b5a2f7;
+    --cor2:#4d4668;
+    --cor3:#E8CD6D;
+    --cor4:#696557;
+    --cor5:#1F2937;
+}
+
+/*Header*/
+header{
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    padding: 10px;
+    max-height: 300px;
+}
+
+header > h1{
+    text-align: center;
+    font-size: 4em;
+    font-family: 'Chango', sans-serif;
+    color: #E8CD6D;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+header > nav > a{
+    font-family: 'Chango', sans-serif;
+    font-size: 1em;
+    padding: 20px;
+    text-decoration: none;
+    color: #E8CD6D;
+}
+
+header a:hover{
+    background-color: #886DE8;
+
+}
+
+/*Main*/
 main{
     min-width: 300px;
     max-width: 600px;
