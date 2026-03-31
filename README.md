@@ -5,5 +5,4 @@ Estou a aprender a criar sites e a gerir repositórios!
 Pasta EU, para meus testes fora do curso!
 
 
-https://meno626.github.io/html-css/desafios/mod2/d010/android.html
 <a href="https://github.com/Meno626/html-css/blob/main/desafios/mod2/d010/android.html" target="_blank"> Executar o desafio 10<a>
